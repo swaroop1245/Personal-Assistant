@@ -250,11 +250,11 @@ if __name__ == "__main__":
         clear_btn.click(lambda: ([], ""), None, [chatbot, msg])
     
 
-#     demo.launch(
-#     server_name="localhost",  # or just omit this line entirely
-#     server_port=7860,
-#     share=True,               # gives you a temporary *.gradio.live link
-# )
+    demo.launch(
+    server_name="localhost",  # or just omit this line entirely
+    server_port=7860,
+    share=True,               # gives you a temporary *.gradio.live link
+)
 
 
     
